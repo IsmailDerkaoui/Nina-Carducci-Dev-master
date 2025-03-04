@@ -57,7 +57,6 @@
 
     $(".gallery").on("click", ".nav-link", $.fn.mauGallery.methods.filterByTag);
 
-    // FIX: Utilisation de event delegation
     $(document).on("click", ".mg-prev", function () {
         $.fn.mauGallery.methods.prevImage(options.lightboxId);
     });
