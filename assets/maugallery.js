@@ -116,7 +116,7 @@
       $(`#${lightboxId}`).modal("toggle");
     },
 
-    // IMAGE SUIVANTE
+    // IMAGE PRECEDENTE
 
     prevImage() {
       let activeImage = $(".lightboxImage").attr("src");
